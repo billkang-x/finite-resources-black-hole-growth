@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "checks": {
+    "all_runs_completed": true,
+    "exact_rest_count_accounting": true,
+    "energy_ledger_below_3ppm": true,
+    "ledger_explanation_below_1e_11": true,
+    "collisionless_reference_within_one_percentage_point": true,
+    "refinements_within_one_percentage_point_diagnostic": true
+  },
+  "groups": {
+    "baseline": {
+      "mean_late_capture_per_injected": 0.13747916666666665,
+      "independent_seed_values": [
+        0.135125,
+        0.13983333333333334
+      ],
+      "block_standard_error_diagnostic": 0.0020173157451565584,
+      "replica_standard_error_diagnostic": 0.002354166666666671,
+      "conservative_diagnostic_standard_error": 0.002354166666666671,
+      "last_quarter_minus_preceding_quarter": [
+        -0.0025833333333333264,
+        -0.006666666666666626
+      ],
+      "late_time_block_rates": [
+        [
+          0.145,
+          0.13325,
+          0.131,
+          0.1375,
+          0.14275,
+          0.12125
+        ],
+        [
+          0.14425,
+          0.14575,
+          0.1395,
+          0.13475,
+          0.136,
+          0.13875
+        ]
+      ],
+      "late_population": [
+        728.3074827735272,
+        721.7560898120322
+      ],
+      "collisions": [
+        9043,
+        9218
+      ]
+    },
+    "space": {
+      "mean_late_capture_per_injected": 0.13747916666666665,
+      "independent_seed_values": [
+        0.13854166666666667,
+        0.13641666666666666
+      ],
+      "block_standard_error_diagnostic": 0.0007559475875022715,
+      "replica_standard_error_diagnostic": 0.0010625000000000079,
+      "conservative_diagnostic_standard_error": 0.0010625000000000079,
+      "last_quarter_minus_preceding_quarter": [
+        8.333333333332416e-05,
+        -0.003500000000000003
+      ],
+      "late_time_block_rates": [
+        [
+          0.1365,
+          0.1405,
+          0.1385,
+          0.13725,
+          0.13725,
+          0.14125
+        ],
+        [
+          0.137,
+          0.13975,
+          0.13775,
+          0.132,
+          0.13825,
+          0.13375
+        ]
+      ],
+      "late_population": [
+        718.7680116249395,
+        718.9487242253947
+      ],
+      "collisions": [
+        8917,
+        9152
+      ]
+    },
+    "time": {
+      "mean_late_capture_per_injected": 0.13583333333333333,
+      "independent_seed_values": [
+        0.13466666666666666,
+        0.137
+      ],
+      "block_standard_error_diagnostic": 0.0014545947750476604,
+      "replica_standard_error_diagnostic": 0.001166666666666677,
+      "conservative_diagnostic_standard_error": 0.0014545947750476604,
+      "last_quarter_minus_preceding_quarter": [
+        0.00466666666666668,
+        0.006666666666666654
+      ],
+      "late_time_block_rates": [
+        [
+          0.1355,
+          0.1325,
+          0.129,
+          0.14425,
+          0.13675,
+          0.13
+        ],
+        [
+          0.13325,
+          0.136,
+          0.13175,
+          0.1425,
+          0.13575,
+          0.14275
+        ]
+      ],
+      "late_population": [
+        721.0274270119088,
+        720.0799841667078
+      ],
+      "collisions": [
+        8995,
+        8885
+      ]
+    },
+    "particles": {
+      "mean_late_capture_per_injected": 0.1355208333333333,
+      "independent_seed_values": [
+        0.136125,
+        0.13491666666666666
+      ],
+      "block_standard_error_diagnostic": 0.0006251578083600458,
+      "replica_standard_error_diagnostic": 0.0006041666666666695,
+      "conservative_diagnostic_standard_error": 0.0006251578083600458,
+      "last_quarter_minus_preceding_quarter": [
+        0.0027499999999999747,
+        -8.333333333332416e-05
+      ],
+      "late_time_block_rates": [
+        [
+          0.13425,
+          0.134625,
+          0.135375,
+          0.13875,
+          0.136875,
+          0.136875
+        ],
+        [
+          0.13375,
+          0.136125,
+          0.135,
+          0.134875,
+          0.13875,
+          0.131
+        ]
+      ],
+      "late_population": [
+        1446.4699819271775,
+        1437.205446846631
+      ],
+      "collisions": [
+        18209,
+        17826
+      ]
+    },
+    "collisionless": {
+      "mean_late_capture_per_injected": 0.09610416666666666,
+      "independent_seed_values": [
+        0.09666666666666666,
+        0.09554166666666666
+      ],
+      "block_standard_error_diagnostic": 0.0013129809123755866,
+      "replica_standard_error_diagnostic": 0.0005625000000000005,
+      "conservative_diagnostic_standard_error": 0.0013129809123755866,
+      "last_quarter_minus_preceding_quarter": [
+        0.001333333333333353,
+        -0.00491666666666668
+      ],
+      "late_time_block_rates": [
+        [
+          0.098,
+          0.0875,
+          0.1025,
+          0.09875,
+          0.09925,
+          0.094
+        ],
+        [
+          0.1,
+          0.096,
+          0.098,
+          0.098,
+          0.089,
+          0.09225
+        ]
+      ],
+      "late_population": [
+        623.7206681215202,
+        627.2815766584549
+      ],
+      "collisions": [
+        0,
+        0
+      ]
+    },
+    "extended": {
+      "mean_late_capture_per_injected": 0.0974375,
+      "independent_seed_values": [
+        0.09845833333333333,
+        0.09641666666666666
+      ],
+      "block_standard_error_diagnostic": 0.001096276843076906,
+      "replica_standard_error_diagnostic": 0.0010208333333333317,
+      "conservative_diagnostic_standard_error": 0.001096276843076906,
+      "last_quarter_minus_preceding_quarter": [
+        -0.005916666666666681,
+        -0.0031666666666666926
+      ],
+      "late_time_block_rates": [
+        [
+          0.097,
+          0.10125,
+          0.106,
+          0.097,
+          0.095,
+          0.0945
+        ],
+        [
+          0.096,
+          0.098,
+          0.1,
+          0.096,
+          0.09775,
+          0.09075
+        ]
+      ],
+      "late_population": [
+        662.4508309852553,
+        662.9383961541866
+      ],
+      "collisions": [
+        274,
+        263
+      ]
+    }
+  },
+  "refinements": [
+    {
+      "refinement": "space",
+      "absolute_change": 0.0,
+      "difference_plus_two_diagnostic_standard_errors": 0.0051656585037899985
+    },
+    {
+      "refinement": "time",
+      "absolute_change": -0.0016458333333333186,
+      "difference_plus_two_diagnostic_standard_errors": 0.007180432380794813
+    },
+    {
+      "refinement": "particles",
+      "absolute_change": -0.0019583333333333397,
+      "difference_plus_two_diagnostic_standard_errors": 0.006829851774147457
+    }
+  ],
+  "compact_collisionless_analytic_fraction": 0.09624720690302604,
+  "compact_inner_collision_capture_ratio": 1.4305224365922393,
+  "compact_collision_induced_absolute_fraction_change": 0.041374999999999995,
+  "suite_wall_seconds": 293.8145380000351,
+  "sum_run_elapsed_seconds": 497.7824818001245,
+  "statistical_scope": "Two independent seeds per configuration and six late blocks per seed. Standard errors and the one-percentage-point comparison are post-run diagnostics, not a pre-registered confidence bound or proof of stationarity for arbitrary histories.",
+  "physical_scope": "These fractions refer only to the declared incoming distribution at r=100 GM/c^2, fixed M_BH=1e5 Msun and sigma/m=1 cm^2/g. They cannot be extrapolated to 100 Myr or substituted for the evolving outer halo.",
+  "physical_growth_success": false,
+  "physical_growth_failure_demonstrated": false,
+  "global_gravitational_feedback_evolved": false
+}

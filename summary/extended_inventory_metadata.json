@@ -1,0 +1,8 @@
+{
+  "inventory_msun": 0.000559031485657213,
+  "energy_order": 12,
+  "angular_order": 16,
+  "radial_order": 384,
+  "orbits": 43584,
+  "scope": "Collisionless fixed potential with uniform initial radial phase; no continual resetting."
+}

@@ -1,0 +1,21 @@
+{
+  "units": {
+    "length": "pc",
+    "time": "Myr",
+    "mass": "solar mass",
+    "energy": "(pc/Myr)^2",
+    "f_mass": "Msun pc^-3 (pc/Myr)^-3"
+  },
+  "halo_mass_msun": 50000000000.0,
+  "halo_concentration": 3.0,
+  "halo_velocity_km_s": 76.51034218019993,
+  "gas_mass_msun": 100000000.0,
+  "gas_cylinder_half_height_over_radius": 0.6,
+  "seed_msun": 100000.0,
+  "omega_b": 0.049,
+  "omega_m": 0.315,
+  "unresolved_density_exponent": 0.75,
+  "exterior_wall": "reflecting, nonzero Jeans pressure",
+  "distribution": "isotropic piecewise constant f(E), finite reflecting box; energy zero at outer wall",
+  "scope": "Two explicitly specified frozen preparations, not a calculation of their cosmological formation."
+}

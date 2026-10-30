@@ -1,0 +1,109 @@
+{
+  "orbit_inventory_msun": 0.0015185165615102135,
+  "collisionless_capture_100myr_msun": 0.001517511747274314,
+  "phase_volume_control": {
+    "case": "finite_disk_compact_slow",
+    "energy_bins": 640,
+    "energy_quadrature": 12,
+    "angular_quadrature": 16,
+    "radial_quadrature": 384,
+    "orbits": 45312,
+    "gas_radius_pc": 1.9846010443065145,
+    "initial_capture_rate_rest_msun_myr": 1.8816471214577342,
+    "all_inward_matching_sphere_rate_rest_msun_myr": 19.550092991665757,
+    "true_geodesic_fraction_of_inward_rate": 0.09624747679000217,
+    "initial_capture_orbit_inventory_rest_msun": 0.0015185165615102135,
+    "independent_spatial_inventory_rest_msun": 0.0015185159921465902,
+    "phase_volume_relative_discrepancy": 3.7494740001697835e-07,
+    "captured_rest_by_100myr_msun": 0.0015175117472743128,
+    "captured_seed_mass_fraction": 1.5175117472743126e-08,
+    "mass_weighted_first_infall_collision_lower_median": 47.72781823956979,
+    "mass_fraction_orbits_with_first_infall_collision_lower_ge_one": 0.9999821400484176,
+    "flux_fraction_orbits_with_first_infall_collision_lower_ge_one": 0.22210799871757356,
+    "mass_balance_relative_max": 1.1423803466796365e-15,
+    "wall_seconds": 21.8015136999893,
+    "surface": "geodesic_filtered_x100",
+    "mass_weighted_radial_period_median_myr": 0.01176535522727121,
+    "time_to_drain_half_inventory_myr": 0.005730312629022448
+  },
+  "inner_records": [
+    {
+      "seed": 20261031,
+      "tg_myr": 1.5607938967606116e-14,
+      "run_duration_myr": 1.4983621408901872e-09,
+      "late_capture_per_injected": 0.13854166666666667,
+      "mean_input_energy": 0.9988611137873435,
+      "input_energy_flux_msun_myr": 19.331672240996877,
+      "rest_flux_msun_myr": 19.35371391894286,
+      "return_mean_energy_gain": 0.0013627292270354417,
+      "energy_ledger_relative": 5.605422463972332e-07,
+      "state_counts": {
+        "0": 688,
+        "1": 6571,
+        "2": 40741
+      },
+      "cohort": {
+        "packets": 14400,
+        "captured": 1983,
+        "recruited": 748,
+        "initial_capture_returned": 145,
+        "censored": 3
+      },
+      "corrected_return_static_min_pr2": 2.518313870006339e-07
+    },
+    {
+      "seed": 20261032,
+      "tg_myr": 1.5607938967606116e-14,
+      "run_duration_myr": 1.4983621408901872e-09,
+      "late_capture_per_injected": 0.13641666666666666,
+      "mean_input_energy": 0.9988591357372606,
+      "input_energy_flux_msun_myr": 19.331633958381452,
+      "rest_flux_msun_myr": 19.35371391894286,
+      "return_mean_energy_gain": 0.001317952340201783,
+      "energy_ledger_relative": -5.6996459363301e-07,
+      "state_counts": {
+        "0": 704,
+        "1": 6448,
+        "2": 40848
+      },
+      "cohort": {
+        "packets": 14400,
+        "captured": 1991,
+        "recruited": 760,
+        "initial_capture_returned": 153,
+        "censored": 3
+      },
+      "corrected_return_static_min_pr2": 6.058977405180854e-07
+    }
+  ],
+  "capture_ratio": 1.4305224365922393,
+  "fixed_input_energy_flux_msun_myr": 19.331653099689163,
+  "all_capture_energy_100myr_msun": 1933.1653099689163,
+  "required_mean_energy_supply_msun_myr": 99000.0,
+  "required_supply_amplification": 5121.134726010154,
+  "heat_refinement_comparisons": [
+    {
+      "reference": "space",
+      "refined": "finer",
+      "relative_change": 0.014868262661987375,
+      "five_percent_target_passed": true
+    },
+    {
+      "reference": "space",
+      "refined": "fine_time",
+      "relative_change": 0.03223489029519566,
+      "five_percent_target_passed": true
+    },
+    {
+      "reference": "space",
+      "refined": "fine_particles",
+      "relative_change": 0.03688311448542447,
+      "five_percent_target_passed": true
+    }
+  ],
+  "scientific_scope": "Fixed geometry, prescribed incoming distribution; fixed-input supply comparison is conditional and is not a live 100 Myr halo evolution.",
+  "excluded_previous_claims": [
+    "100 Myr boundary prototype: invalid time unit and dimensionless-angular-momentum mapping; no quantitative manuscript result taken from it.",
+    "Perfect recurrence using captured-cohort mean energy for every recycled packet: not a conserved-energy upper bound."
+  ]
+}
