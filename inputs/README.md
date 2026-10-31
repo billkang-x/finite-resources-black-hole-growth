@@ -13,3 +13,9 @@ continued as r^(-3/4); this is part of the declared preparation.
 These are small numerical inputs, not particle dumps. Halo/gas formation histories,
 full particle records and large binary quadratures are omitted. The distribution
 can optionally be refitted by `python -m finite_resources.phase_space`.
+
+`ceers_proxy_reference.json` adds only aggregate audit inputs for the revised
+Letter: public data URLs, compressed-catalogue SHA256, exact proxy cuts and
+counts in five comparison windows. It contains no individual source records,
+coordinates or official completeness weights. Reconstruct the aggregates from
+the separately downloaded CEERS FITS file with `finite_resources.ceers_selection`.

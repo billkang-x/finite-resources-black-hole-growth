@@ -6,7 +6,7 @@
   "inputs/extended_distribution.csv": "63024adcfa93108926357da7b0acb48e439735b8a6917dd56536d20987a1ddb4",
   "inputs/extended_profiles.csv": "a4c418fec4db3921d8cc36687d87d797f0d5a78176c7a822691b22281cdde00d",
   "inputs/model_parameters.json": "fa9e6e8d07480d4aa83ffdcdb0c19f191b1de86c1b5aa74ad2f7a6ff12a6a57f",
-  "inputs/README.md": "06ffceefed81b3c264263a9fe98122958cd16f3621798967612a6233a4939c34",
+  "inputs/README.md": "4d63c3a7dcc52beabe68d577401f38979e8b7372d591273e1f6f6896bfb5cf7f",
   "summary/capture_energy.json": "c370533d5dc7de6e4b41b182f10b10543039927ea367f2262928aad8d5604d59",
   "summary/compact_inventory.csv": "19a780e68656081868fa0265cabe9596224c215f1b6b81be86ffd60e3c736605",
   "summary/compact_inventory_metadata.json": "b75217f05061f8955ebd1c79ab649f7fa72e9fc66918de0e5eafefc58565917b",
@@ -14,5 +14,6 @@
   "summary/extended_inventory_metadata.json": "03097a823fd74cc74f120233b7967e2fc7aec503128390adab57d17ec18a875b",
   "summary/inner_runs.json": "78950bae3a2cf8ae3250a541efd806bdd395cad3afbdf548fe1515f55f53a108",
   "summary/inner_suite.json": "82309489d67fab5ad779df3a8f12f61772c1cfc8637e996a6714d507e7448727",
-  "summary/README.md": "99d0983da00318cec24c53602bdc02959fd42a0d64ba7cec42f1e47b4236fb77"
+  "summary/README.md": "99d0983da00318cec24c53602bdc02959fd42a0d64ba7cec42f1e47b4236fb77",
+  "inputs/ceers_proxy_reference.json": "4e006810f8120e772f31ea4ecda759bc891a45fe370be48dbee7d8c22a748ddc"
 }

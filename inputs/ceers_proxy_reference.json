@@ -1,0 +1,84 @@
+{
+  "catalogue_rows": 87345,
+  "catalogue_sha256": "ce321809bec14afbdc48ce1aa97bda651f25ef36d26119a8fa8cf7f1904d3504",
+  "public_sources": {
+    "catalogue_index": "https://web.corral.tacc.utexas.edu/ceersdata/DR1/Catalog/",
+    "catalogue_readme": "https://web.corral.tacc.utexas.edu/ceersdata/DR1/Catalog/ceers_cat.readme.md",
+    "nircam_readme": "https://web.corral.tacc.utexas.edu/ceersdata/DR1/NIRCam/README.txt",
+    "catalogue_paper": "https://arxiv.org/abs/2510.08743",
+    "reduction_code": "https://github.com/ceers/ceers-nircam"
+  },
+  "public_rules": {
+    "clean_flags": "STAR_FLAG==0 and BAD_REGION_FLAG==0",
+    "detection_bands": [
+      "F150W",
+      "F200W",
+      "F277W",
+      "F356W"
+    ],
+    "empirical_snr": "F150W/F200W/F277W/F356W flux-to-empirical-error >= 3",
+    "strict_sensitivity": "also require F444W flux-to-empirical-error >= 3",
+    "nominal_redshift": "5 <= LP_Z_MED <= 9",
+    "broad_redshift": "4.5 <= LP_Z_MED <= 9.5",
+    "minimum_lephare_bands": "LP_NBANDS >= 8",
+    "f444_limit": "F444W <= 27.5 AB",
+    "colour_proxy": "F277W-F444W > 1 and F150W-F200W < 0.5",
+    "ab_zero_point_njy": 31.4
+  },
+  "catalogue_filename": "ceers_cat_v1.0.fits.gz",
+  "catalogue_url": "https://web.corral.tacc.utexas.edu/ceersdata/DR1/Catalog/ceers_cat_v1.0.fits.gz",
+  "samples": {
+    "parent": {
+      "N": 1242,
+      "K": 48,
+      "q_count": 0.03864734299516908,
+      "count_CP95": [
+        0.028630451827450096,
+        0.050916452963790215
+      ],
+      "q_weighted": 0.03601068822619713
+    },
+    "broad_parent": {
+      "N": 1809,
+      "K": 51,
+      "q_count": 0.028192371475953566,
+      "count_CP95": [
+        0.021061525294966958,
+        0.036902631440364195
+      ],
+      "q_weighted": 0.026181930068826385
+    },
+    "mass_parent": {
+      "N": 248,
+      "K": 27,
+      "q_count": 0.10887096774193548,
+      "count_CP95": [
+        0.07298334723387312,
+        0.1544391863526804
+      ],
+      "q_weighted": 0.10207771378832248
+    },
+    "strict5": {
+      "N": 1241,
+      "K": 48,
+      "q_count": 0.038678485092667206,
+      "count_CP95": [
+        0.028653632596680145,
+        0.050957218607727
+      ],
+      "q_weighted": 0.03603327198305976
+    },
+    "strict5_mass_parent": {
+      "N": 248,
+      "K": 27,
+      "q_count": 0.10887096774193548,
+      "count_CP95": [
+        0.07298334723387312,
+        0.1544391863526804
+      ],
+      "q_weighted": 0.10207771378832248
+    }
+  },
+  "scope": "Aggregate public-catalogue colour-proxy audit inputs only; no object records or official completeness surface.",
+  "source_audit_sha256": "8f68aa23a1d6f994e6eb1ff1cc422b42e6ee14caf3b1f50f9205305665d03c82"
+}
